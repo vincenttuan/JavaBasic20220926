@@ -11,5 +11,9 @@ public class Demo3 {
 		int b = a++; // 後序遞增, a 先將內容給 b, 之後 a 再加 1
 		System.out.printf("a=%d b=%d\n", a, b);
 
+		int k = 0;
+		System.out.println(k++);
+		System.out.println(k);
+
 	}
 }
