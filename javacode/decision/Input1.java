@@ -8,6 +8,8 @@ public class Input1 {
 		System.out.print("請輸入半徑: ");
 		int r = sc.nextInt(); // 將使用者所輸入的資料轉成 int 後再給 r 變數使用
 		System.out.printf("使用者所輸入的半徑是: %d\n", r);
-		
+		double area = r * r * Math.PI; // Math.PI 指的就是圓周率 3.1415926...
+		System.out.printf("圓面積: %,.1f\n", area);
+
 	}
 }
