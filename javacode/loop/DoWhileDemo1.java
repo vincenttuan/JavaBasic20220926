@@ -1,10 +1,12 @@
 package loop;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class DoWhileDemo1 {
 	public static void main(String[] args) {
-		int ans = 53;
+		Random random = new Random();
+		int ans = random.nextInt(99) + 1;
 		int min = 0, max = 100;
 		do {
 			// user 猜
