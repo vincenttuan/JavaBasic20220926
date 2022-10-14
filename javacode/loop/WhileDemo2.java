@@ -7,7 +7,7 @@ public class WhileDemo2 {
 		int sum = 0;
 		while(true) {
 			System.out.println(i); // 印出 i
-			sum = sum + i; // sum 進行累加
+			sum += i; // sum 進行累加 sum = sum + i;
 			i++; // i 加 1
 			if(i > 10) { // 若 i > 10
 				break; // 跳離迴圈
