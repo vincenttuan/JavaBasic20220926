@@ -10,6 +10,12 @@ public class DoWhileDemo1 {
 			Scanner scanner = new Scanner(System.in);
 			System.out.printf("請在 %d~%d 之間猜一數字: ", min, max);
 			int userGuess = scanner.nextInt();
+			// 檢查 userGuess 是否合理 ?
+			if(userGuess >= max || userGuess <= min) {
+				System.out.println("數字範圍錯誤, 請重新猜~");
+				continue;
+			}
+
 			if(userGuess < ans) {
 				min = userGuess;
 			} else if(userGuess > ans) {
